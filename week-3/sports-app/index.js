@@ -24,6 +24,9 @@ for (let team of teams){
     console.log(teamManager.displayTeam(team))
 }
 
+//Output two spaces to separate the individual teams from displaying all teams
+console.log("\n")
+
 //Output the information of the two individual team objects to the console
 console.log("-- DISPLAYING A SINGLE TEAM --\n" + teamManager.displayTeam(bulls))
 console.log("-- DISPLAYING A SINGLE TEAM --\n" + teamManager.displayTeam(celtics));
